@@ -31,9 +31,9 @@ onUrlChange url =
 
 view : Model.Model -> Browser.Document Msg.Msg
 view model =
-    { title = "Paulsen-Kiss"
+    { title = "Your Title"
     , body =
-        [ div [ class "flex h-screen w-screen flex-col max-h-screen" ]
+        [ div []
             [ case model.activeRoute of
                 Router.Home ->
                     View.Home.view model
