@@ -5,7 +5,6 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (div, text)
-import Html.Attributes exposing (class)
 import Model
 import Msg exposing (Msg(..))
 import Router

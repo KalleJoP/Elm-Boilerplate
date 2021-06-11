@@ -7,4 +7,4 @@ import Msg
 
 view : Model.Model -> Html.Html Msg.Msg
 view model =
-    div [] [ text "HEY" ]
+    div [] [ text "Hello World!" ]
